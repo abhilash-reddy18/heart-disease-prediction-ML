@@ -41,8 +41,13 @@ Confusion Matrix:
 [[32, 0],
  [5, 23]]
 ```
-
 ROC-AUC Score: **0.95**
+
+## ROC Curve
+
+The ROC curve illustrates the performance of the Logistic Regression model across different classification thresholds.
+
+![ROC Curve](roc_curve.png)
 
 ## Key Insights
 
