@@ -1,6 +1,7 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
 A machine learning project that predicts the likelihood of heart disease using **Logistic Regression**, supported by **exploratory data analysis, model evaluation, and a deployed web application**.
+![Heart Disease Prediction App](Heart-Disease-Detection.png)
 
 ---
 
