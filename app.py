@@ -55,16 +55,38 @@ with col1:
     age = st.number_input("Age", 20, 100)
     sex = st.selectbox("Sex (0 = Female, 1 = Male)", [0,1])
     cp = st.selectbox("Chest Pain Type", [0,1,2,3])
-    trestbps = st.number_input("Resting Blood Pressure")
-    chol = st.number_input("Cholesterol")
+    trestbps = st.number_input(
+    "Resting Blood Pressure (mm Hg)",
+    min_value=80,
+    max_value=200,
+    value=120
+)
+    chol = st.number_input(
+    "Cholesterol (mg/dl)",
+    min_value=100,
+    max_value=600,
+    value=200
+)
     fbs = st.selectbox("Fasting Blood Sugar >120", [0,1])
     restecg = st.selectbox("Resting ECG", [0,1,2])
 
 with col2:
    
-    thalach = st.number_input("Maximum Heart Rate")
+    thalach = st.number_input(
+    "Maximum Heart Rate",
+    min_value=60,
+    max_value=220,
+    value=150,
+    help="Maximum heart rate achieved during exercise"
+)
     exang = st.selectbox("Exercise Induced Angina", [0,1])
-    oldpeak = st.number_input("ST Depression")
+    oldpeak = st.number_input(
+    "ST Depression",
+    min_value=0.0,
+    max_value=6.0,
+    value=1.0,
+    step=0.1
+)
     slope = st.selectbox("Slope of ST segment", [0,1,2])
     ca = st.selectbox("Number of Major Vessels", [0,1,2,3])
     thal = st.selectbox("Thalassemia", [0,1,2,3])
