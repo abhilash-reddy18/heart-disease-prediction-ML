@@ -1,4 +1,5 @@
 # Heart Disease Prediction using Machine Learning
+A machine learning project that predicts heart disease using Logistic Regression with exploratory data analysis and model evaluation.
 
 ## Project Overview
 This project predicts the presence of heart disease using a Logistic Regression model. The aim is to analyze clinical features and determine whether a patient is likely to have heart disease.
